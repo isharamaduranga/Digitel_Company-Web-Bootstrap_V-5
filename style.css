@@ -39,7 +39,7 @@ body{
 .navbar-toggler{
     outline: none !important;
 }
-/****************  --- Banner styles---  *******************/
+/****************  --- Banner section styles---  *******************/
 
 #banner{
     background-image: linear-gradient(to right,#a517ba,#5f1782);
@@ -67,3 +67,5 @@ body{
 .bottom_img{
     width: 100%;
 }
+
+/****************  --- Services section styles---  *******************/
