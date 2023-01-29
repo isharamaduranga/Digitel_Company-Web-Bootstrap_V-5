@@ -1,71 +1,133 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: sans-serif;
 }
 
-#nav_bar{
+#nav_bar {
     position: sticky;
     top: 0;
     z-index: 10;
 }
-.navbar-nav{
+
+.navbar-nav {
     margin-left: auto;
 }
 
-.navbar{
-    background-image: linear-gradient(to right,#a517ba,#5f1782);
+.navbar {
+    background-image: linear-gradient(to right, #1194e7, #0159e8);
 }
-.navbar-brand img{
+
+.navbar-brand img {
     height: 40px;
     padding-left: 20px;
 }
-.navbar-nav li{
+
+.navbar-nav li {
     padding: 0 10px;
 }
 
-.navbar-nav li a{
+.navbar-nav li a {
     color: #fff !important;
-    font-weight:600 ;
+    font-weight: 600;
     float: right;
     text-align: left;
 }
-.fa-bars{
+
+.fa-bars {
     color: #fff;
     font-size: 30px !important;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     outline: none !important;
 }
+
 /****************  --- Banner section styles---  *******************/
 
-#banner{
-    background-image: linear-gradient(to right,#a517ba,#5f1782);
+#banner {
+background-image: linear-gradient(to right, #1194e7, #0159e8);
     color: #fff;
     padding-top: 5%;
 }
-.pTitle{
+
+.pTitle {
     font-size: 40px;
     font-weight: 600;
     margin-top: 100px;
 }
 
-.play-btn{
-    width:45px ;
+.play-btn {
+    width: 45px;
     margin: 20px;
 }
-#banner a{
+
+#banner a {
     color: white;
     text-decoration: none;
 }
-.img-fluid{
+
+.img-fluid {
     width: 500px;
     height: 400px;
 }
-.bottom_img{
+
+.bottom_img {
     width: 100%;
 }
 
 /****************  --- Services section styles---  *******************/
+#services {
+    padding: 80px 0;
+}
+
+.service_img {
+    width: 250px;
+    margin-top: 20px;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services h4 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.title::before {
+    content: '';
+    background: #0159e8;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    display: block;
+    transform: translateY(63px);;
+}
+
+.title::after {
+    content: '';
+    background: #0159e8;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    border-radius: 5px;
+    transform: translateY(8px);;
+}
+
+#services .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+   /* background-image: linear-gradient(to right, #1194e7, #0159e8);*/
+}
