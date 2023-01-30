@@ -176,5 +176,21 @@ background-image: linear-gradient(to right, #1194e7, #0159e8);
     font-size: 14px;
 }
 
-
+/****************  --- Social Media section styles---  *******************/
+#social_media{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social_media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social_icons img{
+    width: 80px;
+    transition: 0.5s;
+}
+.social_icons a:hover img{
+    transform: translateY(-10px);
+}
 
