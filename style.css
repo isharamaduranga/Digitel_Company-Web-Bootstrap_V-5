@@ -151,7 +151,10 @@ background-image: linear-gradient(to right, #1194e7, #0159e8);
 
 #about_us ul {
     margin-left: 20px;
+
 }
+
+
 /****************  --- Testimonials section styles---  *******************/
 #testimonials{
     margin: 100px 0;
@@ -172,3 +175,6 @@ background-image: linear-gradient(to right, #1194e7, #0159e8);
     display: inline-block;
     font-size: 14px;
 }
+
+
+
